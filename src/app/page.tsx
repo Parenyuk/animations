@@ -47,6 +47,11 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <a href='#' className='no-underline inline-block text-black text-2xl p-2 rounded-full [box-shadow:inset_0_0_0_0_#000]
+         transition duration-500 ease-in-out
+          hover:text-white hover:[box-shadow:inset_300px_0_0_0_#000] '>
+          Your link here
+          </a>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
