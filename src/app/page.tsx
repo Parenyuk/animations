@@ -53,6 +53,13 @@ export default function Home() {
           Your link here
           </a>
         </div>
+        <div className='p-2.5 border-2 border-black rounded-2xl shadow-[inset_0_20px_4px_-10px_rgba(255,255,255,0.7)]'>
+          <button className='outline-none w-30 h-20 text-2xl text-white
+          text-[shadow_0_2px_5px_black] bg-gradient-to-t from-[#696969] to-[#575757] border-2 border-black
+          rounded-2xl shadow-[inset_0_20px_4px_-19px_rgba(255,255,255,0.4),0_12px_12px_0_rgba(0,0,0,0.3)]
+          hover:bg-gradient-to-b from-[#696969] to-[#575757] active:translate-y-1 shadow-[0_6px_6px_0_rgba(0,0,0,0.3)]
+          '>push the button</button>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
